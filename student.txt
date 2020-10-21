@@ -1,0 +1,4 @@
+Student name: Alexandru Beghiu
+Student number: 646415
+Student class: IT1A
+URL student GitHub repository: https://github.com/sasabeghiu/FInal-Assignment
