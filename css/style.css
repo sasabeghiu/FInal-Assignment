@@ -32,7 +32,7 @@ article
 }
 section
 {
-    background-color: yellowgreen;
+    background-color: aqua;
 }
 #ulnav
 {
@@ -43,4 +43,41 @@ section
 {
     display: inline;
 }
-
+#grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+#art1
+{
+    grid-area: 1 / 2 / span 6 / span 1;
+}
+#art2
+{
+    grid-row: 1 / span 2 ;
+}
+#art3
+{
+    grid-area: 1 / 3 / span 3 / span 1;
+}
+#art4
+{
+    grid-area: 4 / 3 / span 3 / span 1;
+}
+#art5
+{
+    grid-row: 3 / span 5;
+}
+#art6
+{
+    grid-area: 7 / 2 / span 1 / span 2;
+}
+.product
+{
+    grid-row: 8 / span 2;
+}
+.imgproduct
+{
+    width: 100px;;
+}

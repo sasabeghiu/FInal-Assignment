@@ -12,13 +12,14 @@
     <h1>Inholland solar energy</h1>
     <h2>Make the world a better place</h2>
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="eusolar.html">Solar energy in EU</a></li>
-            <li><a href="contact.html">Contact</a></li>
+        <ul id="ulnav">
+            <li class="linav"><a href="index.html">Home</a></li>
+            <li class="linav"><a href="eusolar.html">Solar energy in EU</a></li>
+            <li class="linav"><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <article>
+    <section id="grid-container">
+    <article id="art1">
         <h1>Solar panels</h1>
         <p>Solar panels are made out of photovoltaic cells (which is why generating electricity with solar
             panels is also called solar PV) that convert the sun’s energy into electricity.
@@ -30,7 +31,7 @@
             inverter to convert it into an alternating current, which can then be funnelled into the
             National Grid or used by the home or business the solar panels are attached to.</p>
     </article>
-    <article>
+    <article id="art2">
         <h1>Charger controller</h1>
         <p>A charge controller is an essential part of nearly all power systems that charge batteries,
             whether the power source are solar panels, wind, hydro, fuel, or the utility grid. Its purpose is
@@ -39,7 +40,7 @@
             Some controllers also prevent battery overdischarge, protect from electrical overload, and/or display
             battery status and the flow of power. Let's examine each function individually.</p>
     </article>
-    <article>
+    <article id="art3">
         <h1>Battery system</h1>
         <p>A home battery system stores surplus solar power for later use. The solar battery extends the use
             of a PV-system’s generated energy and will provide free, sustainable power even when the sun is not
@@ -48,7 +49,7 @@
             Due to the increased self-consumption, the electricity costs decrease significantly. You will pay
             less per used kWh.</p>
     </article>
-    <article>
+    <article id="art4">
         <h1>DC power</h1>
         <p>The term DC is used to refer to power systems that use only one polarity of voltage or current,
             and to refer to the constant, zero-frequency, or slowly varying local mean value of a voltage or current.
@@ -59,7 +60,7 @@
             DC component and a zero-mean time-varying component; the DC component is defined to be the expected
             value, or the average value of the voltage or current over all time.</p>
     </article>
-    <article>
+    <article id="art5">
         <h1>Inverter</h1>
         <p>An inverter is a device which converts the DC power in a battery to 240V AC electricity. Inverters
             come in two basic output designs, pure sine wave and modified sine wave (squarewave). Most AC devices
@@ -74,7 +75,7 @@
             figures give an idea of how much power can be supplied by the inverter for 5 seconds and 1/2 an
             hour before the inverter's overload protection trips and cuts the power.</p>
     </article>
-    <article>
+    <article id="art6">
         <h1>AC power</h1>
         <p>Alternating current, abbreviation AC, flow of electric charge that periodically reverses.
             It starts, say, from zero, grows to a maximum, decreases to zero, reverses, reaches a maximum in the
@@ -87,25 +88,26 @@
             thousand megahertz in radar or microwave communication. Cellular telephones operate at frequencies
             of about 1,000 megahertz (1 gigahertz).</p>
     </article>
-    <aside>product 1
+
+    <aside class="product">product 1
         <a
             href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP243027010">
-            <img src="img/color_control.png">
+            <img src="img/color_control.png" class="imgproduct">
         </a>
     </aside>
-    <aside>product 2
+    <aside class="product">product 2
         <a
             href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP122300001">
-            <img src="img/energy_multi.jpg">
+            <img src="img/energy_multi.jpg" class="imgproduct">
         </a>
     </aside>
-    <aside>product 3
+    <aside class="product">product 3
         <a
             href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000">
-            <img src="img/inverter.png">
+            <img src="img/inverter.png" class="imgproduct">
         </a>
     </aside>
-
+</section>
 
     <footer>&#169; Beghiu Alexandru</footer>
     <!--fixed cookie statement-->
