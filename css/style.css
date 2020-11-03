@@ -34,3 +34,13 @@ section
 {
     background-color: yellowgreen;
 }
+#ulnav
+{
+    margin: 0;
+    padding: 0;
+}
+.linav
+{
+    display: inline;
+}
+
