@@ -3,39 +3,70 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="This webpage is about solar energy and was made to move human beings from fussil fuels to solar power.">
+    <meta name="author" content="Alexandru Beghiu">
     <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <header>Website logo</header>
-    <h1>Inholland solar energy</h1>
-    <h2>Make the world a better place</h2>
-    <nav>
+    <header class="header">Website logo xxx
+        <h1>Inholland solar energy</h1>
+        <h2>Make the world a better place</h2>
+    </header>
+    <nav class="nav-bar">
         <ul>
             <li><a href="index.html">Home</a></li>
+            <li><a href="howsolarworks.html">How solar works</a></li>
             <li><a href="eusolar.html">Solar energy in EU</a></li>
-            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <!--contact form-->
-    <form action="http://i-want-solar-energy.com/testform.php">
-        <fieldset>
-        <legend>Contact us</legend>
-        <label for="name">Name</label>
-        <input type="text" name="name" required>
-        <label for="email">E-mail</label>
-        <input type="email" name="email" required>
-        <label for="message">Message</label>
-        <textarea name="message" placeholder="Write your message here..." required></textarea>
-        <input type="submit">
-        </fieldset>
-    </form>
+    <section class="contact">
+        <section class="form">
+            <form action="http://i-want-solar-energy.com/testform.php" method="post">
+                <fieldset>
+                    <legend>Contact us</legend>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="5" cols="20" placeholder="Write your message here..."
+                        required></textarea>
+                    <input type="submit" value="submit">
+                </fieldset>
+            </form>
+        </section>
 
-    <aside>product 1 <img src="img/color_control.png"></aside>
-    <aside>product 2 <img src="img/energy_multi.jpg"></aside>
-    <aside>product 3 <img src="img/inverter.png"></aside>
-    <footer>&#169; Beghiu Alexandru</footer>
-    <!--fixed cookie statement-->
+
+        <aside class="products">
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP243027010"
+                target="_blank">
+                <figure>
+                    <img src="img/easy_solar.png" title="Easy Solar" alt="Easy Solar">
+                    <figcaption>Victron EasySolar 24V 3000W 70A-50 MPPT Color Control</figcaption>
+                </figure>
+            </a>
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP122300001"
+                target="_blank">
+                <figure>
+                    <img src="img/multi_plus.png" title="Multi Plus" alt="Multi Plus">
+                    <figcaption>Victron Energy Multiplus 12V / 3000W / 120-16</figcaption>
+                </figure>
+            </a>
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN122120200"
+                target="_blank">
+                <figure>
+                    <img src="img/phoenix_inverter.png" title="Phoenix Inverter" alt="Phoenix Inverter">
+                    <figcaption>Victron Phoenix inverter 12V 1200W VE.Direct</figcaption>
+                </figure>
+            </a>
+        </aside>
+    </section>
+
+    <footer>&#169; 2020 Beghiu Alexandru</footer>
+    <section class="cookie">Cookie Statement</section>
 
 </html>
