@@ -1,17 +1,49 @@
 /*Header*/
+.header
+{
+    padding: 0.2em;
+    margin: 0;
+    background-color: turquoise;
+}
 .header h1, h2
 {
     text-align: center;
     text-transform: uppercase;
 }
+.header img
+{
+    display: block;
+    float: left;
+    padding: 10px 20px;
+    width: 100px;
+}
 /*Nav bar*/
 .nav-bar
 {
-    background-color: white;
+    border-style: solid;
+    border-width: 0 0 5;
+    border-color: lightgreen;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-weight: 500;
+}
+.nav-bar a
+{
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+    margin: 0;
     width: 100%;
+    text-align: center;
+}
+.nav-bar li:hover
+{
+    background-color: yellowgreen;
 }
 .nav-bar ul
 {
+    display: flex;
     background-color: lightgreen;
     overflow: hidden;
     margin: 0;
