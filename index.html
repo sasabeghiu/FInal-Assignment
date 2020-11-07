@@ -3,19 +3,26 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="This webpage is about solar energy and was made to move human beings from fussil fuels to solar power.">
+    <meta name="author" content="Alexandru Beghiu">
     <title>Index page</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <header>Website logo</header>
-    <h1>Inholland solar energy</h1>
-    <h2>Make the world a better place</h2>
-    <nav>
-        <ul id="ulnav">
-            <li class="linav"><a href="howsolarworks.html">How does the solar energy works</a></li>
-            <li class="linav"><a href="eusolar.html">Solar energy in EU</a></li>
-            <li class="linav"><a href="contact.html">Contact</a></li>
+    <header class="header">
+        <a href="./index.html">
+            <img src="img/logo.png" title="Logo" alt="Logo" id="logo">
+        </a>
+        <h1>Inholland solar energy</h1>
+        <h2>Make the world a better place</h2>
+    </header>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="howsolarworks.html">How solar works</a></li>
+            <li><a href="eusolar.html">EU Solar</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <video autoplay muted>
@@ -24,7 +31,7 @@
         Sorry, your browser does not support the video.
     </video>
     <section>
-        <article id="article1">
+        <article class="article">
             <header>SmartSolat MPPT 100/30 &#38; 100/50</header>
             <p>A solar charger gathers energy from your solar panels, and stores it in your batteries.
                 Using the latest, fastest technology, SmartSolar maximises this energy-harvest, driving it
@@ -33,16 +40,16 @@
             <p>The SmartSolar charge controller will even recharge a severely depleted battery. It can
                 operate with a battery voltage as low as 0 Volts, provided the cells are not permanently
                 sulphated or otherwise damaged.</p>
-            <a
-                href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">
-                <img src="img/smartsolar.png" title="SmartSolar" alt="Copyright x"></a>
-            <footer><a
-                    href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC110050210">More
-                    info</a></footer>
+            <a href="https://www.victronenergy.com/solar-charge-controllers/smartsolar-100-30-100-50"
+                target="_blank">
+                <figure>
+                    <img src="img/smartsolar_100_50.png" title="Smart Solar" alt="Smart Solar">
+                    <figcaption>Victron SmartSolar MPPT 100-50 12V 24V</figcaption>
+                </figure></a>
         </article>
     </section>
     <section>
-        <article id="article2">
+        <article class="article">
             <header>Phoenix Inverter Smart 16600VA-3000VA</header>
             <p>The Phoenix Inverter Smart is an efficient and reliable inverter. Built on our proven and
                 field tested Phoenix inverter platform, it now comes with a new slimmer design and full metal casing.
@@ -55,16 +62,16 @@
                 inverter
                 easier than ever before.Configure alarms, alarm relay, voltage cut-off, output voltage, frequency,
                 eco-mode and more, all from within VictronConnect.</p>
-            <a
-                href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000">
-                <img src="img/phoenixinverter.png" title="Phoenix Inverter Smart" alt="Copyright x"></a>
-            <footer><a
-                    href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000">More
-                    info</a></footer>
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000"
+                target="_blank">
+                <figure>
+                    <img src="img/phoenix_inverter_smart.png" title="Phoenix Inverter Smart" alt="Phoenix Inverter Smart">
+                    <figcaption>Victron Energy inverter Smart 12V 2000W 230V</figcaption>
+                </figure></a>
         </article>
     </section>
     <section>
-        <article id="article3">
+        <article class="article">
             <header>Gel and AGM batteries</header>
             <p>The AGM range has very low internal resistance making them particularly suitable for high current
                 discharge applications such as for inverters, thrusters and winches.</p>
@@ -75,15 +82,16 @@
                 eliminating
                 the need for battery terminals. The batteries are compliant with both CE and UL specifications in ABS
                 fireproof containers and come with Victron's 2 year world-wide warranty.</p>
-            <a
-                href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/BAT412110081">
-                <img src="img/agmbatteries.png" title="Gel and AGM batteries" alt="Copyright x"></a>
-            <footer><a
-                    href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/BAT412110081">More
-                    info</a></footer>
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/BAT412110081"
+                target="_blank">
+                <figure>
+                    <img src="img/agm_batteries.png" title="AGM Batteries" alt="AGM Batteries">
+                    <figcaption>Victron AGM Super Cycle battery 12V 100Ah</figcaption>
+                </figure>
+            </a>
         </article>
     </section>
-    <aside>
+    <aside class="index_aside">
         <!--make aside fixed, cant grow or shrink-->
         <ol>Why using solar power?
             <li>Solar power is good for enviroiment.</li>
@@ -93,8 +101,8 @@
             <li>Solar power proved its reability.</li>
         </ol>
     </aside>
-    <footer>&#169; Beghiu Alexandru</footer>
-    <!--fixed cookie statement-->
+    <footer class="footer_under">&#169; 2020 Beghiu Alexandru</footer>
+    <section class="cookie">Cookie Statement</section>
 
 </body>
 </html>
