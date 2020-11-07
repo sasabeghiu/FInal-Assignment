@@ -56,6 +56,18 @@
     color: white;
     border-right: 1px solid;
 }
+/*Footer*/
+.footer_under
+{
+    padding: 15px 0px;
+    background-color: lightgreen;
+    position: relative;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-size: 20px;
+    text-align: center;
+}
 /*Howsolarworks page*/
 #grid-container
 {
@@ -95,18 +107,7 @@
 {
     width: 100px;;
 }
-/*Footer*/
-footer
-{
-    padding: 15px 0px;
-    background-color: lightgreen;
-    position: relative;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 0;
-    font-size: 20px;
-    text-align: center;
-}
+
 /*Contact page*/
 .contact
 {
@@ -163,4 +164,53 @@ textarea
 {
     padding: 10px;
     margin-top: 40px;
+}
+/*EU solar*/
+.table_products
+{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+.table_products .products
+{
+    padding: 10px 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.table_products .products img
+{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+td, th
+{
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+th
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: limegreen;
+    color: white;
+}
+tr:nth-child(even)
+{
+    background-color: green;
+}
+tr:nth-child(odd)
+{
+    background-color: lime;
+}
+.table
+{
+    padding: 20px;
+    width: 100%;
+}
+#tablefooter
+{
+    width: 100%;
+    padding: 10px;
 }
