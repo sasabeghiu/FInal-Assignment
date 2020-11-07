@@ -3,114 +3,131 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description"
+        content="This webpage is about solar energy and was made to move human beings from fussil fuels to solar power.">
+    <meta name="author" content="Alexandru Beghiu">
     <title>How solar works</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
-    <header>Website logo</header>
-    <h1>Inholland solar energy</h1>
-    <h2>Make the world a better place</h2>
-    <nav>
-        <ul id="ulnav">
-            <li class="linav"><a href="index.html">Home</a></li>
-            <li class="linav"><a href="eusolar.html">Solar energy in EU</a></li>
-            <li class="linav"><a href="contact.html">Contact</a></li>
+    <header class="header">
+        <a href="./index.html">
+            <img src="img/logo.png" title="Logo" alt="Logo" id="logo">
+        </a>
+        <h1>Inholland solar energy</h1>
+        <h2>Make the world a better place</h2>
+    </header>
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="eusolar.html">EU Solar</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
     <section id="grid-container">
-    <article id="art1">
-        <h1>Solar panels</h1>
-        <p>Solar panels are made out of photovoltaic cells (which is why generating electricity with solar
-            panels is also called solar PV) that convert the sun’s energy into electricity.
-            Photovoltaic cells are sandwiched between layers of semi-conducting materials such as silicone.
-            Each layer has different electronic properties that energise when hit by photons from sunlight,
-            creating an electric field. This is known as the photoelectric effect – and it’s this that creates
-            the current needed to produce electricity.
-            Solar panels generate a direct current of electricity. This is then passed through an
-            inverter to convert it into an alternating current, which can then be funnelled into the
-            National Grid or used by the home or business the solar panels are attached to.</p>
-    </article>
-    <article id="art2">
-        <h1>Charger controller</h1>
-        <p>A charge controller is an essential part of nearly all power systems that charge batteries,
-            whether the power source are solar panels, wind, hydro, fuel, or the utility grid. Its purpose is
-            to keep your deep cycle batteries properly fed and safe for the long term. The basic functions of a
-            controller are quite simple. Charge controllers block reverse current and prevent battery overcharge.
-            Some controllers also prevent battery overdischarge, protect from electrical overload, and/or display
-            battery status and the flow of power. Let's examine each function individually.</p>
-    </article>
-    <article id="art3">
-        <h1>Battery system</h1>
-        <p>A home battery system stores surplus solar power for later use. The solar battery extends the use
-            of a PV-system’s generated energy and will provide free, sustainable power even when the sun is not
-            shining and the panels don’t produce energy. Therefore, with a solar battery little to no electricity
-            is fed into the grid while also avoiding having to buy expensive electricity from the grid later.
-            Due to the increased self-consumption, the electricity costs decrease significantly. You will pay
-            less per used kWh.</p>
-    </article>
-    <article id="art4">
-        <h1>DC power</h1>
-        <p>The term DC is used to refer to power systems that use only one polarity of voltage or current,
-            and to refer to the constant, zero-frequency, or slowly varying local mean value of a voltage or current.
-            For example, the voltage across a DC voltage source is constant as is the current through a DC current
-            source.
-            The DC solution of an electric circuit is the solution where all voltages and currents are constant.
-            It can be shown that any stationary voltage or current waveform can be decomposed into a sum of a
-            DC component and a zero-mean time-varying component; the DC component is defined to be the expected
-            value, or the average value of the voltage or current over all time.</p>
-    </article>
-    <article id="art5">
-        <h1>Inverter</h1>
-        <p>An inverter is a device which converts the DC power in a battery to 240V AC electricity. Inverters
-            come in two basic output designs, pure sine wave and modified sine wave (squarewave). Most AC devices
-            will work fine on the modified sinewave inverter, but there are some exceptions. Devices such as
-            laser printers can be damaged when run on modified sinewave power. Motors and power supplies
-            usually run warmer and less efficiently, and some things, like fans, amplifiers, and cheap
-            fluorescent lights, give off an audible buzz on modified sinewave power. However, modified sinewave
-            inverters make the conversion from DC to AC very efficiently, and they are relatively inexpensive.
-            Pure sine wave inverters provide AC power that is virtually identical to, and often cleaner than,
-            power from the grid. Inverters are generally rated by the amount of AC power they can supply
-            continuously. Manufacturers generally also provide 5 second and 1/2 hour surge figures. The surge
-            figures give an idea of how much power can be supplied by the inverter for 5 seconds and 1/2 an
-            hour before the inverter's overload protection trips and cuts the power.</p>
-    </article>
-    <article id="art6">
-        <h1>AC power</h1>
-        <p>Alternating current, abbreviation AC, flow of electric charge that periodically reverses.
-            It starts, say, from zero, grows to a maximum, decreases to zero, reverses, reaches a maximum in the
-            opposite direction, returns again to the original value, and repeats this cycle indefinitely. The
-            interval of time between the attainment of a definite value on two successive cycles is called the
-            period, the number of cycles or periods per second is the frequency, and the maximum value in either
-            direction is the amplitude of the alternating current. Low frequencies, such as 50 and 60 cycles per
-            second (hertz), are used for domestic and commercial power, but alternating currents of frequencies
-            around 100,000,000 cycles per second (100 megahertz) are used in television and those of several
-            thousand megahertz in radar or microwave communication. Cellular telephones operate at frequencies
-            of about 1,000 megahertz (1 gigahertz).</p>
-    </article>
+        <article id="art1">
+            <h1>Solar panels</h1>
+            <p>Solar panels are made out of photovoltaic cells (which is why generating electricity with solar
+                panels is also called solar PV) that convert the sun’s energy into electricity.
+                Photovoltaic cells are sandwiched between layers of semi-conducting materials such as silicone.
+                Each layer has different electronic properties that energise when hit by photons from sunlight,
+                creating an electric field. This is known as the photoelectric effect – and it’s this that creates
+                the current needed to produce electricity.
+                Solar panels generate a direct current of electricity. This is then passed through an
+                inverter to convert it into an alternating current, which can then be funnelled into the
+                National Grid or used by the home or business the solar panels are attached to.</p>
+        </article>
+        <article id="art2">
+            <h1>Charger controller</h1>
+            <p>A charge controller is an essential part of nearly all power systems that charge batteries,
+                whether the power source are solar panels, wind, hydro, fuel, or the utility grid. Its purpose is
+                to keep your deep cycle batteries properly fed and safe for the long term. The basic functions of a
+                controller are quite simple. Charge controllers block reverse current and prevent battery overcharge.
+                Some controllers also prevent battery overdischarge, protect from electrical overload, and/or display
+                battery status and the flow of power. Let's examine each function individually.</p>
+        </article>
+        <article id="art3">
+            <h1>Battery system</h1>
+            <p>A home battery system stores surplus solar power for later use. The solar battery extends the use
+                of a PV-system’s generated energy and will provide free, sustainable power even when the sun is not
+                shining and the panels don’t produce energy. Therefore, with a solar battery little to no electricity
+                is fed into the grid while also avoiding having to buy expensive electricity from the grid later.
+                Due to the increased self-consumption, the electricity costs decrease significantly. You will pay
+                less per used kWh.</p>
+        </article>
+        <article id="art4">
+            <h1>DC power</h1>
+            <p>The term DC is used to refer to power systems that use only one polarity of voltage or current,
+                and to refer to the constant, zero-frequency, or slowly varying local mean value of a voltage or
+                current.
+                For example, the voltage across a DC voltage source is constant as is the current through a DC current
+                source.
+                The DC solution of an electric circuit is the solution where all voltages and currents are constant.
+                It can be shown that any stationary voltage or current waveform can be decomposed into a sum of a
+                DC component and a zero-mean time-varying component; the DC component is defined to be the expected
+                value, or the average value of the voltage or current over all time.</p>
+        </article>
+        <article id="art5">
+            <h1>Inverter</h1>
+            <p>An inverter is a device which converts the DC power in a battery to 240V AC electricity. Inverters
+                come in two basic output designs, pure sine wave and modified sine wave (squarewave). Most AC devices
+                will work fine on the modified sinewave inverter, but there are some exceptions. Devices such as
+                laser printers can be damaged when run on modified sinewave power. Motors and power supplies
+                usually run warmer and less efficiently, and some things, like fans, amplifiers, and cheap
+                fluorescent lights, give off an audible buzz on modified sinewave power. However, modified sinewave
+                inverters make the conversion from DC to AC very efficiently, and they are relatively inexpensive.
+                Pure sine wave inverters provide AC power that is virtually identical to, and often cleaner than,
+                power from the grid. Inverters are generally rated by the amount of AC power they can supply
+                continuously. Manufacturers generally also provide 5 second and 1/2 hour surge figures. The surge
+                figures give an idea of how much power can be supplied by the inverter for 5 seconds and 1/2 an
+                hour before the inverter's overload protection trips and cuts the power.</p>
+        </article>
+        <article id="art6">
+            <h1>AC power</h1>
+            <p>Alternating current, abbreviation AC, flow of electric charge that periodically reverses.
+                It starts, say, from zero, grows to a maximum, decreases to zero, reverses, reaches a maximum in the
+                opposite direction, returns again to the original value, and repeats this cycle indefinitely. The
+                interval of time between the attainment of a definite value on two successive cycles is called the
+                period, the number of cycles or periods per second is the frequency, and the maximum value in either
+                direction is the amplitude of the alternating current. Low frequencies, such as 50 and 60 cycles per
+                second (hertz), are used for domestic and commercial power, but alternating currents of frequencies
+                around 100,000,000 cycles per second (100 megahertz) are used in television and those of several
+                thousand megahertz in radar or microwave communication. Cellular telephones operate at frequencies
+                of about 1,000 megahertz (1 gigahertz).</p>
+        </article>
 
-    <aside class="product">product 1
-        <a
-            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP243027010">
-            <img src="img/color_control.png" class="imgproduct">
-        </a>
-    </aside>
-    <aside class="product">product 2
-        <a
-            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PMP122300001">
-            <img src="img/energy_multi.jpg" class="imgproduct">
-        </a>
-    </aside>
-    <aside class="product">product 3
-        <a
-            href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/PIN12220000">
-            <img src="img/inverter.png" class="imgproduct">
-        </a>
-    </aside>
-</section>
+        <aside class="product">
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+STP+8.0-3AV-40%22"
+                target="_blank">
+                <figure>
+                    <img src="img/sunny_tripower.png" title="Sunny Tripower" alt="Sunny Tripower">
+                    <figcaption>SMA Inverter STP 8.0-3AV-40</figcaption>
+                </figure>
+            </a>
+        </aside>
+        <aside class="product">
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/%22SMA+Sunny+Boy+SB3.6%22"
+                target="_blank">
+                <figure>
+                    <img src="img/sunny_boy.png" title="Sunny Boy" alt="Sunny Boy">
+                    <figcaption>SMA Sunny Boy SB3.6 inverter</figcaption>
+                </figure>
+            </a>
+        </aside>
+        <aside class="product">
+            <a href="https://www.ikwilzonneenergie.nl/epages/61494231.sf/nl_NL/?ObjectPath=/Shops/61494231/Products/SCC115035210"
+                target="_blank">
+                <figure>
+                    <img src="img/smartsolar_150_35.png" title="Smart Solar" alt="Smart Solar">
+                    <figcaption>Victron SmartSolar MPPT 150-35 12V 24V 48V</figcaption>
+                </figure>
+            </a>
+        </aside>
+    </section>
 
-    <footer>&#169; Beghiu Alexandru</footer>
-    <!--fixed cookie statement-->
+    <footer class="footer_under">&#169; 2020 Beghiu Alexandru</footer>
+    <section class="cookie">Cookie Statement</section>
 </body>
 
 </html>
