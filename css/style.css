@@ -57,16 +57,37 @@
     border-right: 1px solid;
 }
 /*Footer*/
-.footer_under
+footer
 {
+    position: relative;
+}
+footer .copy
+{
+    width: 100%;
+    float: left;
     padding: 15px 0px;
     background-color: lightgreen;
-    position: relative;
     color: white;
     font-weight: 700;
     margin-bottom: 0;
     font-size: 20px;
     text-align: center;
+}
+footer .cookies
+{
+    width: 20%;
+    float: right;
+    background-color: #FA0;
+    opacity: 50%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    margin-right: 8px;
+    padding: 17.5px 0px;
+    text-align: center;
+    color: #FFF;
+    font-weight: 700;
 }
 /*Index page*/
 video
@@ -79,7 +100,7 @@ video
 }
 .article /*take this out*/
 {
-    width: 70%;
+    width: 55%;
     padding: 10px 10px 20px 20px;
     box-shadow: 0px 0px 10px 0px #888888;
     margin-left: 10px;
@@ -91,6 +112,13 @@ video
 {
     width: 150px;
     height: 150px;
+}
+.index_aside
+{
+    width: 25%;
+    margin: 100px;
+    float: right;
+    background-color: aqua;
 }
 
 /*Howsolarworks page*/
