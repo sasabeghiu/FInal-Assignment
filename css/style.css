@@ -40,6 +40,10 @@ a:active
 {
     color: #5680e9;
 }
+ol li:first-child
+{
+    list-style: none;
+}
 /*Header*/
 .header
 {
@@ -64,7 +68,6 @@ a:active
 .nav-bar
 {
     border-style: solid;
-    border-width: 0 0 5;
     border-color: #90ee90;
     margin: 0;
     padding: 0;
@@ -163,7 +166,6 @@ video
 .index_aside
 {
     width: 30%;
-    background-color: cmyk(0%, 22%, 83%, 0%);
     float: right;
 }
 
